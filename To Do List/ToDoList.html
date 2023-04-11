@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list with localStorage</title>
+    <script defer src="ToDoList.js"></script>
+    <link href="ToDoList.css" rel="stylesheet" />
+</head>
+<body>
+<div class="title">To Do List with </div></br></br>
+
+<div class="box">
+    <form action="javascript:getData()" id="myData">
+        
+<input type="text" placeholder="What to do?" id="whatToDo" required>
+</br></br>
+
+<input type="submit" value="submit" id="Submit"/>
+<input type="reset" value="reset" id="Reset"/>
+</form>
+</div>
+</br><hr>
+
+<table>
+    <thead>
+      <th>What to do?</th>
+    </thead>
+
+    <tbody id="tableBody"></tbody>
+</table>
+
+
+</body>
+</html>
